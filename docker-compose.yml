@@ -22,7 +22,6 @@ services:
     volumes:
       - ./inventory/:/inventory:rw
       - ./authorized-keys/:/authorized-keys:rw
-      - ./config/:/etc/semaphore:rw
       - ./semaphore_data:/var/lib/semaphore:rw
       - ./semaphore_config:/etc/semaphore:rw
       - ./semaphore_tmp:/tmp/semaphore:rw
